@@ -4,13 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav {background-color: steelblue;
+nav {background-color: rgb(51, 110, 158);
     padding: 10px}
 
 nav a {
     color: white;
     display:block;
-    padding: 20px;
+    padding: 8px;
     }
 
     h1 {
