@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Single+Day&display=swap");
+
+:root {
+  --main-color: #0d161d;
+  --font: "single Day", sans-serif;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 2rem;
+  width: 20px;
+}
+
+.social-media-link {
+  text-decoration: none;
+  padding: 1px;
+
+}
+
+body {
+  max-width: 2000px; 
+  margin: 100px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  left: 0.5%;
+}
+
+article img {
+  position: relative;
+  left: 0.5%;
+  width: 50%;
+
+}
+ 
+
+.hero h1 {
+  position: absolute;
+  top: 10%; 
+  left: 40%;
+  transform: translate(-5%, -5%);
+  background-color: rgba(255, 255, 255, 0.8); 
+
+}
+
+
+article {
+  position: absolute;
+  top: 50%; 
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 30px;
+
+}
+
+
+article img {
+  float: right;
+  margin-left: 50px;
+}
+
+article p {
+  color: #0a0707;
+}
+
+nav img{
+    width: 20px;
+}
