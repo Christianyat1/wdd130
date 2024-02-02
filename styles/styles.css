@@ -56,11 +56,11 @@ aside img {
 }
 /*class selectors*/
 .box{
+    text-align: justify;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #ddd;
-    color: #000;
 }
 aside h2 {
     position: absolute;
