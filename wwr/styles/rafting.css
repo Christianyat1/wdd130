@@ -14,7 +14,8 @@
   --nav-hover-bg-color: #a43312;
 }
 body {
-  max-width: 1020px; /* Adjust max-width as needed */
+  max-width: 1020px; 
+  background-color: var(--primary-color);
   margin: 0 auto;
 }
 
