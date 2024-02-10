@@ -28,7 +28,7 @@ form{
     border: 1px solid rgb(0, 0, 0, 0.1); border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
-    max-width: 400px;
+    max-width: 450px;
 }
  
   
@@ -48,7 +48,7 @@ form{
   
 
 label, input, button, select, textarea{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, sans-serif;
 }
 label{
@@ -58,7 +58,7 @@ label{
 
 input, select, textarea{
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 button[type="submit"] {
     padding: 10px 20px;
@@ -67,7 +67,7 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   button:hover {
     background-color: #0056b3;
@@ -90,5 +90,5 @@ table {
   }
   .question-number{
     color: blue;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
