@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+  
+  <h1>HTML  and CSS quiz</h1>
+  
+  <form action="submit-quiz" method="post">
+    <label for="q1"><span class="question-number">1.</span> What does HTML stand for?</label>
+    <input type="text" id="q1" name="q1" required>
+    <label for="q2"><span class="question-number">2.</span>" How does the CSS "box-sizing" property affect the size calculation of an element?</label>
+    <textarea id="q2" name="q2" rows="4" required></textarea>
+    <label for="q3"><span class="question-number">3.</span> Which CSS property is used to change the color of text?</label>
+    <select id="q3" name="q3" required>
+      <option value="" selected disabled>Choose One ...</option>
+      <option value="option1">font-family</option>
+      <option value="option2">backgroud-color </option>
+      <option value="option3"> text-align </option>
+      <option value="option4"> color </option>
+      <option value="option5"> font-size </option>
+    </select>
+ 
+    <label for="q4"><span class="question-number">4.</span> What is the bottom margin set to in the following CSS declaration:</label>
+    <table>
+      <tr>
+        <th>margin: 20px 15px 10px 5px;</th>
+      </tr>
+    </table>
+    <input type="number" id="q4" name="q4" required>
+
+    <button type="submit">Submit Quiz</button>
+  </form>
+  
+
+    
+</body>
+</html>

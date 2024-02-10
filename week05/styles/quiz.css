@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000000;
+  }
+
+  h1{
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;   
+    text-align: center;
+}
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.1); border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    max-width: 400px;
+}
+ 
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+
+label, input, button, select, textarea{
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, sans-serif;
+}
+label{
+    text-align: start;
+    
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+
+table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+    width: 70%;
+    background-color: rgb(24, 22, 22);
+    color: rgb(197, 182, 182);
+  }
+  
+  th, td {
+    border: 1px solid rgb(250, 247, 247);
+    padding: 10px;
+    text-align: left;
+  }
+  .question-number{
+    color: blue;
+    font-size: 2rem;
+  }
