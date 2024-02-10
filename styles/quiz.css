@@ -75,11 +75,12 @@ button[type="submit"] {
 
 table {
     margin: 0 auto; 
+    margin-bottom: 20px;
     border-collapse: collapse;
     width: 70%;
     background-color: rgb(24, 22, 22);
     color: rgb(197, 182, 182);
-    margin-bottom: 20px;
+    
   }
   
   th, td {
